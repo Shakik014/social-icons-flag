@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1200px;
+	margin: auto;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.a:hover{
+	text-decoration: none;
+}
+
+.head1{
+	color: darkgreen;
+	background-color: blanchedalmond;
+	text-align: center;
+	padding: 15px;
+}
+.green{
+	width: 650px;
+	height: 325px;
+	background-color: green;
+	position: relative;
+	margin: 20px 350px;
+}
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 26%;
+	left: 37%;
+}
+.btn{
+	color: black;
+	background-color: lightcyan;
+	padding: 5px;
+	margin: 1px, 0px, 5px, auto;
+	border: solid grey;
+	border-radius: 5%;
+	text-align: center;
+
+}
+
+.btn:hover{
+
+}
+.fb-share{
+	width: 150px;
+	height: 40px;
+	position: fixed;
+	top: 60%;
+	right: -112px;
+	transition: 1s;
+}
+.fb-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.yt-share{
+	width: 150px;
+	height: 120px;
+	position: fixed;
+	top: 63%;
+	right: -112px;
+	transition: 1s;
+}
+.yt-share:hover{
+	right: -5px;
+	cursor: pointer
+}
+.wp-share{
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	top: 65%;
+	right: -112px;
+	transition: 1s;
+}
+.wp-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.social-icons{ 
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 80px, 0px, 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+.social-icons li a {
+	display: block;
+	margin: 0px, 10px;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #1558AD;
+	color: #fff;
+	border: 1px solid #1558AD;
+	transition: 1s;
+}
+.social-icons li a .fa-instagram{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #644DCB;
+	color: #fff;
+	border: 1px solid #644DCB;
+	transition: 1s;
+}
+.social-icons li a .fa-twitter{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #1C9BE9;
+	color: #fff;
+	border: 1px solid #1C9BE9;
+	transition: 1s;
+}
+.social-icons li a .fa-whatsapp{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #1AD03F;
+	color: #fff;
+	border: 1px solid #1AD03F;
+	transition: 1s;
+}
+.social-icons li a .fa-linkedin{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #0C61BF;
+	color: #fff;
+	border: 1px solid #0C61BF;
+	transition: 1s;
+}
+.social-icons li a .fa-reddit{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #F64302;
+	color: #fff;
+	border: 1px solid #F64302;
+	transition: 1s;
+}
+.social-icons li a .fa-youtube{
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	background: #F70000;
+	color: #fff;
+	border: 1px solid #F70000;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook:hover{
+	background: transparent;
+	color: #1558AD;
+}
+.social-icons li a .fa-instagram:hover{
+	background: transparent;
+	color:#644DCB ;
+}
+.social-icons li a .fa-twitter:hover{
+	background: transparent;
+	color: #1C9BE9;
+}
+.social-icons li a .fa-whatsapp:hover{
+	background: transparent;
+	color:#1AD03F ;
+}
+.social-icons li a .fa-linkedin:hover{
+	background: transparent;
+	color:#0C61BF ;
+}
+.social-icons li a .fa-reddit:hover{
+	background: transparent;
+	color: #F64302;
+}
+.social-icons li a .fa-youtube:hover{
+	background: transparent;
+	color: #F70000;
+}
+
+
+
+
+
+
+
+
+
